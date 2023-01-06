@@ -178,7 +178,10 @@ hr{
 }
 /* Gradient Section */
 .gradient{
-    padding: 100px 230px;
+    padding-top: 0;
+    padding-bottom: 130px;
+    padding-left: 230px;
+    padding-right: 230px;
 }
 
 .gradient-container{
@@ -199,4 +202,72 @@ hr{
     padding-bottom: 24px;
     color: #FFFFFF;
     padding-right: 500px;
+}
+/* Footer Section */
+.footer-container{
+    padding: 100px 230px;
+    background-color: #151414;
+    color: #F8F8F8;
+    display: flex;
+    gap: 0px;
+}
+
+.footer-details{
+    width: 65%;
+}
+
+.subscribe-detail{
+    width: 45%;
+}
+
+.footer-title{
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+
+.footer-description, .footer-subtitle{
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-bottom: 24px;
+}
+
+.footer-description{
+    padding-right: 150px;
+}
+
+.footer-subtitle{
+    padding-bottom: 16px;
+}
+
+.social{
+    display: flex;
+    gap: 17px;
+}
+
+.subscribe-title{
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+input[type="email"]{
+    padding: 20px;
+    width: 100%;
+    color: #F3F3F3;
+    border: 1px solid #F3F3F3;
+    background-color: #151414;
+    border-radius: 5px;
+}
+
+input[type="submit"]{
+    margin-top: 16px;
+    color: #F8F8F8;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 26px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #005FAC;
 }
