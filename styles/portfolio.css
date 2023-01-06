@@ -259,6 +259,7 @@ input[type="email"]{
     border: 1px solid #F3F3F3;
     background-color: #151414;
     border-radius: 5px;
+    font-size: 18px;
 }
 
 input[type="submit"]{
