@@ -1,30 +1,30 @@
 /* Universal */
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
 }
 
 /* Banner Section */
-.banner{
+.banner {
     background-image: url(../images/banner3.png);
     background-repeat: no-repeat;
     background-position: cover;
     padding: 216px 150px;
 }
 
-.banner-container{
+.banner-container {
     text-align: right;
 }
 
-.banner-title{
+.banner-title {
     font-size: 65px;
     font-weight: 700;
     color: #FFFFFF;
     padding-left: 550px;
 }
 
-.banner-description{
+.banner-description {
     color: #FFFFFF;
     font-weight: 400;
     font-size: 16px;
@@ -33,11 +33,57 @@
     padding-bottom: 32px;
 }
 
-.btn-primary{
+.btn-primary {
     color: #005FAC;
     font-weight: 600;
     font-size: 20px;
     padding: 20px 26px;
     border: 0;
     border-radius: 5px;
+}
+
+/* About Section */
+.about {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    padding-left: 206px;
+    padding-right: 280px;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 87px;
+}
+
+.about-details{
+    text-align: left;
+    padding-top: 120px;
+}
+.about-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.about-description{
+    color: #444343;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+li{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+li>i{
+    color: #16D887;
+    border: 2px;
 }
