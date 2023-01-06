@@ -87,3 +87,40 @@ li>i{
     color: #16D887;
     border: 2px;
 }
+
+/* Plan Section */
+.plan{
+    padding-top: 10px;
+    padding-bottom: 130px;
+    text-align: center;
+}
+
+.section-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    padding-bottom: 70px;
+}
+
+.skill-container{
+    display: flex;
+    gap: 90px;
+    padding: 0 150px;
+}
+
+.skill-img{
+    padding-bottom: 25px;
+}
+
+.skill-title{
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+
+.skill-description{
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
